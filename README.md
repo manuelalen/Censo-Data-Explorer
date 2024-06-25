@@ -1,21 +1,23 @@
 # Censo Data Explorer
 
-Bienvenido al repositorio de la aplicación Censo Data Explorer, una herramienta interactiva para explorar y analizar datos de empresarios almacenados en un archivo Excel. Esta aplicación está diseñada para proporcionar insights detallados y permitir una exploración dinámica de los datos.
+Bienvenido al repositorio de la aplicación Censo Data Explorer, una herramienta interactiva para explorar y analizar datos de empresarios (ficticios) almacenados en Excel. Esta aplicación está diseñada para proporcionar insights detallados y permitir una exploración dinámica de los datos.
 
 ## 🌐 Aplicación en Vivo
 
-Puedes acceder a la aplicación en vivo a través de la siguiente URL: [Censo Data Explorer](https://censo-data-explorer-n5n8q7cyssrfsivugmpdij.streamlit.app/)
+Puedes acceder a la aplicación, se puede hacer uso del siguiente enlace: [Censo Data Explorer](https://censo-data-explorer-n5n8q7cyssrfsivugmpdij.streamlit.app/)
 
 ## 📊 Origen de los Datos
 
-El origen de los datos es un archivo Excel que contiene información detallada sobre empresarios. Este archivo es esencial para la operación de la aplicación, ya que contiene todos los datos que se visualizan y analizan. Aquí se detallan los campos disponibles en el archivo:
+El origen de los datos es un archivo Excel que contiene información detallada sobre empresarios. Aquí se detallan los campos disponibles en el archivo:
 
 - `cod_empresario`: Código identificador del empresario.
 - `nif_empresa`: Número de identificación fiscal de la empresa.
 - `nombre_empresa`: Nombre de la empresa.
-- `puntos`: Puntos acumulados por incumplimientos o méritos.
-- `motivo`: Razón por la cual se asignaron los puntos.
+- `puntos`: Puntos acumulados por incumplimientos.
+- `motivo`: Razón por la cual se retiran los puntos.
 - `fecha`: Fecha en la que se registraron los puntos.
+
+Estos datos han sido obtenidos de manera random con `ChatGPT`, a la que se le ha especificado un prompt y una codificación determinada para el `cod_empresario` y el `nif_empresa`. También se le ha pasado un listado de motivos por los que retirar puntos con su correspondiente valor de puntos a retirar. 
 
 ## 🛠️ Funcionalidad de la Aplicación
 
@@ -27,7 +29,7 @@ La aplicación permite a los usuarios:
 
 ## 🚀 Cómo Utilizar
 
-1. **Accede a la Aplicación**: Usa la [URL proporcionada](https://censo-data-explorer-n5n8q7cyssrfsivugmpdij.streamlit.app/) para visitar la aplicación.
+1. **Accede a la Aplicación**: Usa la [URL](https://censo-data-explorer-n5n8q7cyssrfsivugmpdij.streamlit.app/) para visitar la aplicación.
 2. **Aplica Filtros**: Selecciona las opciones deseadas en los campos de filtrado para refinar los resultados mostrados.
 3. **Explora los Resultados**: Visualiza los resultados en la tabla y el gráfico proporcionado para entender mejor la distribución de puntos y el cumplimiento de los empresarios.
 
@@ -39,6 +41,10 @@ Si deseas ejecutar la aplicación localmente, sigue estos pasos:
 2. Asegúrate de tener Python y pip instalados.
 3. Instala las dependencias necesarias con `pip install -r requirements.txt`.
 4. Ejecuta la aplicación con `streamlit run app.py`.
+
+## ⚒️ Uso personal
+
+Para mi caso, este dataset creado mediante GPT, se utiliza para mostrar los datos en este streamlit. No obstante, también se ha desarrollado una aplicación en `PowerApps` mediante la cual podremos insertar una determinada sanción de puntos a un empresario asociado a una empresa. Además, desarrollamos un informe en `PowerBI` con el que elaboramos una serie de métricas que deseamos para nuestro caso de uso. El esquema quedaría de la siguiente manera:
 
 ## 📝 Licencia
 
