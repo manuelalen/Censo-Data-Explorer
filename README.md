@@ -46,6 +46,8 @@ Si deseas ejecutar la aplicación localmente, sigue estos pasos:
 
 Para mi caso, este dataset creado mediante GPT, se utiliza para mostrar los datos en este streamlit. No obstante, también se ha desarrollado una aplicación en `PowerApps` mediante la cual podremos insertar una determinada sanción de puntos a un empresario asociado a una empresa. Además, desarrollamos un informe en `PowerBI` con el que elaboramos una serie de métricas que deseamos para nuestro caso de uso. El esquema quedaría de la siguiente manera:
 
+!(/images/streamlit.png)
+
 ## 📝 Licencia
 
 Este proyecto está bajo la Licencia GNU. Consulta el archivo `LICENSE` en este repositorio para más detalles.
