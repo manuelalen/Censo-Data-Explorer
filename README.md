@@ -42,7 +42,7 @@ Si deseas ejecutar la aplicación localmente, sigue estos pasos:
 
 ## 📝 Licencia
 
-Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` en este repositorio para más detalles.
+Este proyecto está bajo la Licencia GNU. Consulta el archivo `LICENSE` en este repositorio para más detalles.
 
 ---
 
